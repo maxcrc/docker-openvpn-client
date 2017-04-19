@@ -1,4 +1,4 @@
-FROM alpine
+FROM container4armhf/armhf-alpine
 
 ENTRYPOINT ["openvpn"]
 VOLUME ["/vpn"]
